@@ -4,10 +4,10 @@
 -- 因为平时的时候这个 null 不会在我们的 <> 范围内
 -- 更多信息可以点击下面这个链接阅读 
 -- https://leetcode.cn/problems/find-customer-referee/solution/san-by-xiang-shu-k-7ywp/
-
-select
+SELECT
   name
-from
+FROM
   customer
-where
-referee_id<>2 or referee_id is null
+WHERE
+  referee_id <> 2
+  OR referee_id IS NULL

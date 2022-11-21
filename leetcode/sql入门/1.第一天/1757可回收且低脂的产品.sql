@@ -1,9 +1,9 @@
 -- 这到题比较简单那就不分析了
 --  这到题是让我们学习 and
-select
+SELECT
   product_id
-from
+FROM
   Products
-where
-low_fats='Y' and recyclable ='Y'
-;
+WHERE
+  low_fats = 'Y'
+  AND recyclable = 'Y';
